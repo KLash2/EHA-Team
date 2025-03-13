@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="EHA Team - فريق متخصص في الأمن السيبراني والاختبار الأخلاقي">
+    <title>EHA Team - فريق الأمن السيبراني المتميز</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="css/splash.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- صفحة الدخول -->
+    <div class="splash-screen">
+        <video class="splash-video" autoplay playsInline>
+            <source src="eha.mp4" type="video/mp4">
+        </video>
+        <div class="splash-overlay"></div>
+        <div class="splash-content">
+            <div class="splash-logo">EHA Team</div>
+            <div class="splash-text">نحمي عالمك الرقمي</div>
+            <div class="loading-container">
+                <div class="progress-bar">
+                    <div class="progress"></div>
+                </div>
+                <div class="progress-text">Loading System... <span class="progress-percentage">0%</span></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="video-background">
+        <video autoplay muted loop playsinline>
+            <source src="videoplayback.mp4" type="video/mp4">
+        </video>
+        <div class="video-overlay"></div>
+    </div>
+    <div id="particles-js"></div>
+
+    <!-- القائمة العلوية -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <h1><i class="fas fa-shield-alt"></i> EHA Team</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">الرئيسية</a></li>
+                <li><a href="#about">من نحن</a></li>
+                <li><a href="#projects">مشاريعنا</a></li>
+                <li><a href="#services">خدماتنا</a></li>
+                <li><a href="#contact">اتصل بنا</a></li>
+            </ul>
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- القسم الرئيسي -->
+    <section id="home" class="hero">
+        <div class="glitch-container">
+            <h1 class="glitch" data-text="EHA Team">EHA Team</h1>
+        </div>
+        <div class="container">
+            <p class="cyber-text">نحن نحمي عالمك الرقمي</p>
+            <div class="typing-text">متخصصون في: 
+                <span class="typed-text"></span>
+                <span class="cursor">&nbsp;</span>
+            </div>
+            <a href="#contact" class="cta-button"><i class="fas fa-lock"></i> تواصل معنا</a>
+        </div>
+    </section>
+
+    <!-- قسم من نحن -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2><i class="fas fa-user-shield"></i> من نحن</h2>
+            <div class="about-content">
+                <div class="about-text-section">
+                    <div class="about-text">
+                        <h3 class="section-subtitle">فريق متخصص في الأمن السيبراني</h3>
+                        <p>نحن فريق متخصص في الأمن السيبراني والاختبار الأخلاقي. نقدم خدمات احترافية في مجال حماية الأنظمة والشبكات وتقييم الثغرات الأمنية. هدفنا هو تعزيز الأمن الرقمي وحماية البيانات الحساسة.</p>
+                    </div>
+                    <div class="stats">
+                        <div class="stat-item">
+                            <div class="stat-icon"><i class="fas fa-shield-alt"></i></div>
+                            <h3>100+</h3>
+                            <p>اختبار اختراق</p>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-icon"><i class="fas fa-bug"></i></div>
+                            <h3>500+</h3>
+                            <p>ثغرة تم اكتشافها</p>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-icon"><i class="fas fa-clock"></i></div>
+                            <h3>24/7</h3>
+                            <p>مراقبة أمنية</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="team-showcase">
+                <div class="team-member-card">
+                    <div class="member-image">
+                        <img src="https://cdn.discordapp.com/attachments/1218990798662795344/1349462670079950878/DarkCircut.png?ex=67d3308c&is=67d1df0c&hm=1b7b0e8dd0d7234980f7f3b014e6ad5c8aab74ae5348bd5f895b560faadc9b81&" alt="Dark Circuit">
+                        <div class="circuit-overlay"></div>
+                    </div>
+                    <div class="member-info">
+                        <h3>Dark Circuit</h3>
+                        <p>خبير الاختراق الأخلاقي</p>
+                        <div class="member-skills">
+                            <span>Penetration Testing</span>
+                            <span>Network Security</span>
+                            <span>Malware Analysis</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="team-member-card">
+                    <div class="member-image">
+                        <img src="https://cdn.discordapp.com/attachments/1218990798662795344/1349462672743075922/avatar.png?ex=67d3308c&is=67d1df0c&hm=48b198510e7971dd87e810f6cfa12cb7e969da2eadf0c04a90304fd78aad3afa&" alt="Senior KLash">
+                        <div class="cyber-overlay"></div>
+                    </div>
+                    <div class="member-info">
+                        <h3>Senior KLash</h3>
+                        <p>مؤسس الفريق</p>
+                        <div class="member-skills">
+                            <span>Security Architecture</span>
+                            <span>Risk Assessment</span>
+                            <span>Team Leadership</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="team-member-card">
+                    <div class="member-image">
+                        <img src="https://cdn.discordapp.com/attachments/1218990798662795344/1349462683040223303/abo_shanab.png?ex=67d3308f&is=67d1df0f&hm=0618a450c8a7aac7141cdb72b443a927a2a80fb64d0adde1ade13fe740ffa54f&" alt="Abu Shanab">
+                        <div class="glitch-overlay"></div>
+                    </div>
+                    <div class="member-info">
+                        <h3>Abu Shanab</h3>
+                        <p>محلل الأمن السيبراني</p>
+                        <div class="member-skills">
+                            <span>Threat Intelligence</span>
+                            <span>Incident Response</span>
+                            <span>Digital Forensics</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- قسم المشارية -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2><i class="fas fa-project-diagram"></i> مشاريعنا</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=800&q=80" alt="حماية البنية التحتية">
+                        <div class="project-overlay">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>حماية البنية التحتية</h3>
+                        <p>تطوير وتنفيذ حلول أمنية متكاملة لحماية البنية التحتية الحيوية من التهديدات السيبرانية المتقدمة.</p>
+                        <div class="project-tags">
+                            <span>تأمين الشبكات</span>
+                            <span>مراقبة التهديدات</span>
+                            <span>إدارة المخاطر</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://cdn.discordapp.com/attachments/1218990798662795344/1349519588618010674/Penetration-Testing-cybersecurity-singapore.png?ex=67d3658e&is=67d2140e&hm=afe7f602c7e3bbf3621fdb1f44a5cf02754c64d858c236ff39afb26806bdbe3a&" alt="اختبار الاختراق المتقدم">
+                        <div class="project-overlay">
+                            <i class="fas fa-bug"></i>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>اختبار الاختراق المتقدم</h3>
+                        <p>تنفيذ اختبارات اختراق شاملة للأنظمة والتطبيقات باستخدام أحدث التقنيات والمنهجيات المتقدمة.</p>
+                        <div class="project-tags">
+                            <span>فحص الثغرات</span>
+                            <span>محاكاة الهجمات</span>
+                            <span>تقييم المخاطر</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=800&q=80" alt="التحقيق الجنائي الرقمي">
+                        <div class="project-overlay">
+                            <i class="fas fa-search"></i>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>التحقيق الجنائي الرقمي</h3>
+                        <p>تحليل وكشف الحوادث الأمنية باستخدام تقنيات التحقيق الجنائي الرقمي المتقدمة واستعادة البيانات.</p>
+                        <div class="project-tags">
+                            <span>تحليل البيانات</span>
+                            <span>كشف الاختراقات</span>
+                            <span>استعادة المعلومات</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- قسم الخدمات -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2><i class="fas fa-shield-virus"></i> خدماتنا</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <i class="fas fa-bug"></i>
+                    <h3>اختبار الاختراق</h3>
+                    <p>تقييم شامل لأمن الأنظمة والتطبيقات</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-network-wired"></i>
+                    <h3>أمن الشبكات</h3>
+                    <p>حماية البنية التحتية للشبكات</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-virus-slash"></i>
+                    <h3>تحليل البرمجيات الخبيثة</h3>
+                    <p>كشف وتحليل التهديدات المتقدمة</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-user-secret"></i>
+                    <h3>التحقيق الجنائي الرقمي</h3>
+                    <p>تحليل وكشف الحوادث الأمنية</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-code"></i>
+                    <h3>تطوير المواقع</h3>
+                    <p>تصميم وتطوير مواقع احترافية وآمنة</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-mobile-alt"></i>
+                    <h3>تطوير تطبيقات الويب</h3>
+                    <p>بناء تطبيقات ويب تفاعلية ومتجاوبة</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- قسم اتصل بنا -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2><i class="fas fa-envelope-open-text"></i> اتصل بنا</h2>
+            <div class="contact-content">
+                <form id="contact-form" class="cyber-form">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="الاسم" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="البريد الإلكتروني" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" id="phone" name="phone" placeholder="رقم الهاتف" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" placeholder="رسالتك" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-button"><i class="fas fa-paper-plane"></i> إرسال</button>
+                </form>
+                <div class="contact-info">
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <p>ahmedharby.hm71@gmail.com</p>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-phone"></i>
+                        <p>+20 115 742 9276</p>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-location-dot"></i>
+                        <p>جُمهورية مِصر العربية</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- الفوتر -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h3><i class="fas fa-shield-alt"></i> EHA Team</h3>
+                    <p>نحمي مستقبلك الرقمي</p>
+                </div>
+                <div class="social-links">
+                    <a href="https://discord.gg/vUfhJAEgvH"><i class="fab fa-facebook"></i></a>
+                    <a href="https://discord.gg/vUfhJAEgvH"><i class="fab fa-twitter"></i></a>
+                    <a href="https://discord.gg/vUfhJAEgvH"><i class="fab fa-discord"></i></a>
+                    <a href="https://github.com/KLash2"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 E.H.A Team. جميع الحقوق محفوظة</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- إضافة عنصر الصوت -->
+    <audio id="background-music" loop>
+        <source src="back.mp3" type="audio/mpeg">
+    </audio>
+
+    <!-- زر التحكم بالصوت -->
+    <button id="audio-control" class="audio-control">
+        <i class="fas fa-volume-up"></i>
+    </button>
+
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script>
+    document.addEventListener('DOMContentLoaded', () => {
+        const backgroundMusic = document.getElementById('background-music');
+        const audioControl = document.getElementById('audio-control');
+        
+        // Initialize audio state
+        backgroundMusic.volume = 0.5;
+        
+        // Toggle audio on button click
+        audioControl.addEventListener('click', () => {
+            if (backgroundMusic.paused) {
+                backgroundMusic.play();
+                audioControl.querySelector('i').className = 'fas fa-volume-up';
+            } else {
+                backgroundMusic.pause();
+                audioControl.querySelector('i').className = 'fas fa-volume-mute';
+            }
+        });
+
+        // Play background music on first user interaction
+        const playBackgroundMusic = () => {
+            backgroundMusic.play().catch(error => {
+                console.log('Background music autoplay prevented:', error);
+            });
+        };
+
+        document.addEventListener('click', playBackgroundMusic, { once: true });
+    });
+    </script>
+    <script src="js/main.js"></script>
+    <script src="js/projects.js"></script>
+    <script src="js/mobile.js"></script>
+    <script src="js/splash.js"></script>
+</body>
+</html>
